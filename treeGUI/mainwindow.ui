@@ -109,20 +109,6 @@
      <string>Введите элементы дерева через пробел</string>
     </property>
    </widget>
-   <widget class="QWidget" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>269</x>
-      <y>10</y>
-      <width>330</width>
-      <height>330</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border: 1px solid black;</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_delTree">
     <property name="geometry">
      <rect>
@@ -148,6 +134,16 @@ border: 1px solid black;</string>
      <string>Удалить дерево</string>
     </property>
    </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>330</width>
+      <height>330</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -163,7 +159,6 @@ border: 1px solid black;</string>
      <string>Файл</string>
     </property>
     <addaction name="action_newTree"/>
-    <addaction name="action_save"/>
     <addaction name="action_delTree"/>
     <addaction name="action"/>
    </widget>

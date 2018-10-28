@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "binSTree.h"
 
+
 namespace Ui {
 class MainWindow;
 }
@@ -30,10 +31,13 @@ private slots:
 
     void on_action_delTree_triggered();
 
+    void on_action_save_triggered();
+
 private:
     Ui::MainWindow *ui;
 
     binSTree<int> *tree;
+
 };
 
 #endif // MAINWINDOW_H
